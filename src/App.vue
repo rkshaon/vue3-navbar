@@ -10,6 +10,9 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    this.$title = 'Wow'
   }
 }
 </script>
